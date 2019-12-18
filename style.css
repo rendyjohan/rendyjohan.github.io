@@ -3,7 +3,6 @@ body {
     left: 0%;
 }
 
-/* copy header */
 header {
     background-color: #333333;
     position: fixed;
@@ -24,19 +23,22 @@ nav li {
    font-weight: 600;
    font-size: 12px;
    display: inline-block;
-   float: right;
+   float: left;
    width: 100px;
    padding-right: 50px;
-   padding-bottom: 10px;
+   padding-bottom: 5px;
   }
+
 nav li a {
     text-decoration: none;
     color: white;
+    margin-top:10;
 }
   
 nav li img {
     width: 50px;
-    margin-top: -20px;
+    margin-top: 0px;
+    float: left;
 }
 
 nav li p {
@@ -46,7 +48,6 @@ nav li p {
     margin-top: -8px;
     margin-left: -80px
 }
-/* copy header end */
 
 main {
     font-family: 'Raleway', sans-serif;
@@ -55,17 +56,12 @@ main {
     top: 80px;
 }
 
-}
-
 .container {
-    /* background: linear-gradient(#333333, #d9d9d9); */
     background: linear-gradient(#333333, #d9d9d9);
-}
-
-.container {
-    padding-left: 500px;
-    padding-right: 40px;
-    padding-top: 120px;
+    padding-left: 400px;
+    padding-right: 100px;
+    padding-top: 50px;
+    padding-bottom: 50px;
 }
 
 .container h1 {
@@ -73,7 +69,6 @@ main {
     color: white;
     text-align: left;
     text-shadow: b;
-    ;    
 }
 
 .container p {
@@ -83,20 +78,25 @@ main {
     padding-right: 120px;
 }
 
-.container button {
-    font-family: 'Raleway', sans-serif;
-    position: relative;
-    align-items: left;
+aside {
+    width: 30%;
+    padding-left: 30px;
+    padding-bottom: 60px;
+    margin-left: 25px;
+    float: right;
+    box-shadow: inset 5px 0 5px -5px #29627e;
+    font-style: italic;
+    color: #29627e;
 }
 
 .background-home {
-    height: 800px;
+    height: 1000px;
     margin-top: 10px;
     margin-left: -10px;
     margin-right: -10px;
     background-image:
     linear-gradient(to left, rgba(0, 0, 0, 0.5), rgba(255, 255, 255, 0.5)),
-    url("https://images.unsplash.com/photo-1471110338536-858caa3dbe45?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=750&q=80");
+    url(img/mccgowork.JPG);
     -webkit-background-size: cover;
 }
 
@@ -106,6 +106,7 @@ main {
     padding: 20px 0;
     overflow: hidden;
     position: relative;
+    background-image: url("img/pineapplecut.png");
     background-color: #d9d9d9;
 }
 
@@ -149,7 +150,8 @@ main {
 }
 
 .bakwan img, .bakwan2 img, .bakwan3 img {
-    width: 350px;
+    width: 400px;
+    height: 300px;
 }
 
 .bakwan a, .bakwan2 a, .bakwan3 a {
@@ -159,6 +161,7 @@ main {
 }
 
 .drink {
+    background-image: url("img/pineapplecut.png");
     background-color: #d9d9d9;
     padding-top: 20px;
 }
@@ -169,7 +172,8 @@ main {
 }
 
 .minuman img {
-    width: 350px;
+    width: 400px;
+    height: 300px;
 }
 
 .minuman {
@@ -209,17 +213,15 @@ h2 {
 
 p {
     color: black;
-    
 }
 
 li {
     color: black;
-    
-    
 }
 
 a.button {
-    font-size: 10px;
+    font-size: 12px;
+    font-weight: 1000;
     appearance: button;
     background-color: #4CAF50;
     color: white;
@@ -233,20 +235,20 @@ a.button {
 }
 
 a.button:hover {
-    background-color: white;
+    background-color: rgb(172, 13, 13);
     color: #4CAF50;
-    border: 2px solid #4CAF50;
+    border: 3px solid #4CAF50;
 }
 
 footer {
     background-color: #333;
     color: #fff;
-    padding: 15px 10px;
+    padding: 10px;
     width: 100%;
     z-index: 1;
-    bottom: 0;
-    margin-left: -10px;
-    padding-bottom: 30px;
+    /* bottom: 0; */
+    margin-left: -6px;
+    /* padding-bottom: 10px; */
 }
   
 footer p {
@@ -255,7 +257,7 @@ footer p {
     font-size: 11px;
     color: #d9d9d9;
     text-align: center;
-    padding: 0px 200px;
+    padding: 0px 100px;
 }
 
 footer li {
@@ -265,7 +267,7 @@ footer li {
 }
 
 footer ul {
-    padding-left: 47.5%;
+    padding-left: 50%;
 }
 
 footer img {
